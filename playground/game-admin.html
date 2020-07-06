@@ -11,6 +11,7 @@
 
         <style>
             body {
+                width: 90%;
                 margin: 10px 0 0 0;
                 padding: 0;
                 background-color: #EEE;
@@ -30,6 +31,7 @@
             }
 
             #score-table {
+                margin: 0px 0px 0px 5px;
                 font-size: 13px;
                 vertical-align: top;
                 display: inline-block;
@@ -108,7 +110,12 @@
                     <button type="button" class="btn btn-info" onclick="setMaxConcurrentConnections()">Definir Conexões Simultâneas</button><br>
                 </div> 
             </div>
-            <div class="col-10 text-left">
+            <div class="col-10 text-left" id="jogo">
+                <style>
+                    #jogo{
+                        margin: 0px 0px 0px 10px;
+                    }
+                </style>
                 <canvas id="game-canvas"></canvas>
                 <table id="score-table"></table>
             </div>
