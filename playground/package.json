@@ -1,21 +1,21 @@
 {
-  "name": "meu-primeiro-jogo-multiplayer",
+  "name": "SnakeGameJovensGenios",
   "version": "1.0.0",
-  "description": "Um jogo multiplayer bastante simples para testarmos o Socket.io",
+  "description": "Um jogo multiplayer para teste na Jovens Gênios",
   "scripts": {
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/filipedeschamps/meu-primeiro-jogo-multiplayer.git"
+    "url": "git+https://github.com/LuizCowBTF/SnakeGameJovensGenios.git"
   },
-  "author": "",
+  "author": "Luiz Claudio Dias Gomes",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/filipedeschamps/meu-primeiro-jogo-multiplayer/issues"
+    "url": "https://github.com/LuizCowBTF/SnakeGameJovensGenios/issues"
   },
-  "homepage": "https://github.com/filipedeschamps/meu-primeiro-jogo-multiplayer#readme",
+  "homepage": "https://github.com/LuizCowBTF/SnakeGameJovensGenios#readme",
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^1.19.1",
